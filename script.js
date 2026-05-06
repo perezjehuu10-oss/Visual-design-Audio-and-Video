@@ -7,7 +7,7 @@ let audioOne = document.querySelector("#audio-one");
 playBothBtn2.addEventListener("click",function(){
   console.log("both button has been clicked ( ^ _ ^ )");
   videoOne.play();
-  audioTwo.play();
+   audioOne.play();
 
 
   //play your audio here with the .play() method
